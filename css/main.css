@@ -26,13 +26,13 @@ fieldset {
   margin: 0;
 }
 
-  .greenborder {
-    border-bottom: 2px solid rgba(112, 173, 85, .30);
-  }
+.greenborder {
+  border-bottom: 2px solid rgba(112, 173, 85, .3);
+}
 
-  .greenitalic {
+.greenitalic {
     color: #70ad55;
-  }
+}
 
 header p {
   line-height: 1.6rem;
@@ -42,7 +42,8 @@ header p {
 button {
   padding: .375em 2em .42em;
   background-color: #6e8c62;
-  border: 3px solid #6e8c62;
+  border: 3px solid;
+  border-color: #6e8c62;
 }
 
 footer p {

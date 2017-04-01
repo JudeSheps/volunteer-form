@@ -24,7 +24,7 @@
     </header>
 
     <div class="wrapper gutter-half">
-      <form method="POST" action="">
+      <form method="POST" action="https://formspree.io/shep0057@algonquinlive.com">
 
         <fieldset class="pad-t pad-b-2 greenborder">
           <legend class="tera pad-t-2 push-half">Personal details</legend>
@@ -38,7 +38,7 @@
               </div>
             </div>
 
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2"">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
               <div>
                 <label for="nickname">What should we call you?</label>
                 <input id="nickname" name="nickname">
@@ -54,7 +54,7 @@
                 <input id="birth-date" name="birth-date" placeholder="yyyy-mm-dd">
               </div>
               <div class="push">
-                <label for"size">T-shirt size</label>
+                <label for="size">T-shirt size</label>
                 <select id="size" name="size">
                   <option>Select a t-shirt size</option>
                   <option>Fitted: XS</option>
@@ -71,13 +71,13 @@
               </div>
             </div>
 
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2"">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
               <div class="push">
                 <label for="email">Email</label>
                 <input id="email" name="email">
               </div>
               <div>
-                <label for="phone">Phone number <span class="greenitalic italic">(optional)<span></label>
+                <label for="phone">Phone number <span class="greenitalic italic">(optional)</span></label>
                 <input id="phone" name="phone">
               </div>
             </div>
@@ -90,7 +90,7 @@
           <legend class="pad-t-2 push-half">Address</legend>
           <div class="grid">
 
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2"">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
               <div class="push">
                 <label for="street">Street address</label>
                 <input id="street" name="street">
@@ -98,7 +98,7 @@
 
             </div>
 
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2"">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
               <div class="push">
                 <label for="city">City</label>
                 <input id="city" name="city">
@@ -132,7 +132,7 @@
         <fieldset class="pad-t pad-b-2">
           <legend class="giga bold pad-t-2">What activities are you interested in helping with?</legend>
           <div class="grid">
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2"">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
               <div class="push-quarter">
                 <input type="checkbox" id="dig" value="dig"><label for="dig">Digging holes</label>
               </div>
@@ -146,12 +146,12 @@
                 <input type="checkbox" id="drive" value="drive"><label for="drive">Driving people</label>
               </div>
             </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2"">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
               <div class="push-quarter">
                 <input type="checkbox" id="transport" value="transport"><label for="transport">Transporting trees</label>
               </div>
               <div class="push-quarter">
-                <input type="checkbox" id="photos" value="photos""><label for="photos"">Taking photos</label>
+                <input type="checkbox" id="photos" value="photos"><label for="photos"">Taking photos</label>
               </div>
               <div class="push-quarter">
                 <input type="checkbox" id="publishing" value="publishing"><label for="publishing">Online Publishing</label>
@@ -166,7 +166,7 @@
         <fieldset class="pad-b-2 greenborder">
           <legend class="giga bold push-half">Do you have any experience with the following?</legend>
           <div class="grid">
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2"">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
               <div class="push-quarter">
                 <input type="checkbox" id="shovel" value="shovel"><label for="shovel">Shovels</label>
               </div>
@@ -183,12 +183,12 @@
                 <input type="checkbox" id="climbing" value="climbing"><label for="climbing">Trail & hill climbing</label>
               </div>
             </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2"">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
               <div class="push-quarter">
                 <input type="checkbox" id="bush" value="bush"><label for="bush">Bush craft</label>
               </div>
               <div class="push-quarter">
-                <input type="checkbox" id="atv" value="atv"><label for="atv">ATV's</label>
+                <input type="checkbox" id="atv" value="atv"><label for="atv">ATVs</label>
               </div>
               <div class="push-quarter">
                 <input type="checkbox" id="plant-id" value="plant-id"><label for="plant-id">Plant identification</label>
@@ -214,18 +214,20 @@
         <fieldset class="push-2">
           <legend class="giga bold push-half">Do you have a pick-up truck you'd be willing to use?</legend>
           <div>
-            <input type="radio" id="yes" value="truck"><label for="yes">Yes</label>
-            <input type="radio" id="no" value="truck"><label for="no">No</label>
+            <input type="radio" id="truck" value="yes">
+            <label for="truck">Yes</label>
+            <input type="radio" id="truck" value="no">
+            <label for="truck">No</label>
           </div>
         </fieldset>
 
         <fieldset class="pad-b-2 greenborder">
           <legend class="giga bold">Do you have up-to-date first-aid certification?</legend>
           <div class="radio">
-            <input type="radio" id="yes" value="first-aid">
-            <label for="yes">Yes</label>
-            <input type="radio" id="no" value="first-aid">
-            <label for="no">No</label>
+            <input type="radio" id="first-aid" value="yes">
+            <label for="first-aid">Yes</label>
+            <input type="radio" id="first-aid" value="no">
+            <label for="first-aid">No</label>
           </div>
         </fieldset>
 
