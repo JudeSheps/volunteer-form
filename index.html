@@ -51,12 +51,12 @@
             <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
               <div class="push">
                 <label for="birth-date">Date of birth</label>
-                <input id="birth-date" name="birth-date" placeholder="yyyy-mm-dd">
+                <input type="date" id="birth-date" name="birth-date">
               </div>
               <div class="push">
                 <label for="size">T-shirt size</label>
                 <select id="size" name="size">
-                  <option>Select a t-shirt size</option>
+                  <option value="">Select a t-shirt size</option>
                   <option>Fitted: XS</option>
                   <option>Fitted: S</option>
                   <option>Fitted: M</option>
@@ -74,11 +74,11 @@
             <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
               <div class="push">
                 <label for="email">Email</label>
-                <input id="email" name="email">
+                <input id="email" type="email" name="email">
               </div>
               <div>
                 <label for="phone">Phone number <span class="greenitalic italic">(optional)</span></label>
-                <input id="phone" name="phone">
+                <input type="tel" id="phone" name="phone">
               </div>
             </div>
 
@@ -106,7 +106,7 @@
               <div class="push">
                 <label for="province">Province</label>
                 <select id="province" name="province">
-                  <option>Alberta</option>
+                  <option value="">Alberta</option>
                   <option>British Columbia</option>
                   <option>Manitoba</option>
                   <option>New Brunswick</option>
@@ -187,7 +187,7 @@
                 <input type="checkbox" id="writing" value="writing">
                 <label for="writing">Writing & bloggin</label>
               </div>
-               <div class="push-quarter">
+              <div class="push-quarter">
                 <input type="checkbox" id="photography" value="photography">
                 <label for="photography">Photography</label>
               </div>
